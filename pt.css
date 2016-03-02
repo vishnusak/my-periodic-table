@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Comfortaa', monospace;
+  font-size: 1vw;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+.container {
+  display: flex;
+}
+.left-bar {
+  width: 20%;
+}
+.main {
+  width: 80%;
+  padding: 0 0.5% 0 0.5%;
+}
+.row {
+}
+.row:after {
+  clear: both;
+  display: block;
+}
+[class*="main-col-"] {
+  float: left;
+}
+.main-col-1  {width: 5.55555556%;
+              border: 1px solid #000000;
+              cursor: pointer;}     /* 1 x 100/18 */
+.main-col-2  {width: 11.11111111%;}    /* 2 x 100/18 */
+.main-col-3  {width: 16.66666667%;}    /* 3 x 100/18 */
+.main-col-4  {width: 22.22222222%;}    /* 4 x 100/18 */
+.main-col-5  {width: 27.77777778%;}    /* 5 x 100/18 */
+.main-col-6  {width: 33.33333334%;}    /* 6 x 100/18 */
+.main-col-7  {width: 38.88888889%;}    /* 7 x 100/18 */
+.main-col-8  {width: 44.44444445%;}    /* 8 x 100/18 */
+.main-col-9  {width: 50.00000000%;}    /* 9 x 100/18 */
+.main-col-10 {width: 55.55555556%;}    /* 10 x 100/18 */
+.main-col-11 {width: 61.11111112%;}    /* 11 x 100/18 */
+.main-col-12 {width: 66.66666667%;}    /* 12 x 100/18 */
+.main-col-13 {width: 72.22222223%;}    /* 13 x 100/18 */
+.main-col-14 {width: 77.77777778%;}    /* 14 x 100/18 */
+.main-col-15 {width: 83.33333334%;}    /* 15 x 100/18 */
+.main-col-16 {width: 88.88888890%;}    /* 16 x 100/18 */
+.main-col-17 {width: 94.44444445%;}    /* 17 x 100/18 */
+.main-col-18 {width: 100.0000000%;}    /* 18 x 100/18 */
+.series {
+  font-size: 0.65vw;
+  border-style: none;
+}
+.numb, .symb, .name {
+  padding: 12% 0;
+  color: black;
+}
+.numb {
+  float: left;
+  width: 50%;
+  font-size: 1vw;
+  background-color: #000000;
+  color: #ffffff;
+}
+.symb {
+  float: right;
+  width: 50%;
+  font-size: 1vw;
+  background-color: #fff;
+}
+.name {
+  clear: both;
+  font-size: 0.6vw;
+  background-color: #fff;
+}
+.gray-color {
+  color: gray;
+}
+.center-text {
+  text-align: center;
+}
+.left-text {
+  text-align: left;
+}
+.right-text {
+  text-align: right;
+}
