@@ -28,10 +28,20 @@ header{
 
   header h1{
     color: #FFFFFF;
-    line-height: 45vh;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
     font-size: 4vw;
     text-align: center;
     text-shadow: 0 0 2vw #FFFFFF;
+  }
+
+  header h4{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 0 2vw #FFFFFF;
+    margin-bottom: 15vh;
   }
 
   header p{
@@ -209,7 +219,7 @@ footer{
       #right #element .etop .enum{
         background-color: #000000;
         color: #FFFFFF;
-      }      
+      }
 
     #right #element .ebottom{
       height: 8.5vh;
